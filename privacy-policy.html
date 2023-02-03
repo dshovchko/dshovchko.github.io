@@ -2,6 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style type="text/css">
 html {
     font-family: sans-serif;
@@ -10,8 +14,8 @@ html {
 }
 
 body {
-    min-width: 980px;
-    font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    /*min-width: 980px;*/
+    font: 13px/1.4 'Roboto', sans-serif;;
     color: #333;
     background-color: #fff;
 }
@@ -35,20 +39,15 @@ summary {
 }
 
 .container {
-    width: 980px;
-    margin-right: auto;
-    margin-left: auto
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
 }
 
-.container:before {
-    display: table;
-    content: ""
-}
-
-.container:after {
-    display: table;
-    clear: both;
-    content: ""
+@media all and (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
 }
 
 .boxed-group {
@@ -145,7 +144,7 @@ summary {
   -webkit-text-size-adjust: 100%;
   color: #333;
   overflow: hidden;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-family: 'Roboto', sans-serif;;
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
@@ -762,10 +761,35 @@ summary {
 }
 </style>
 </head>
-<body><div id="readme" class="container"><article class="markdown-body">
-<h2>Privacy Policy for "Snap Environment Switcher"</h2>
-<p>No data or personal information is collected by <a href="https://chrome.google.com/webstore/detail/snap-environment-switcher/efjoaihofoihbocdckfnadfmgjpfbpcb" rel="nofollow">Snap Environment Switcher</a>.</p>
-</article>
-</div>
+<body>
+  <div id="readme" class="container">
+    <article class="markdown-body">
+      
+      <h2>Privacy Policy</h2>
+      <p>No information will be collected from you and no information will be uploaded to the server.</p>
+
+      <h3>Cookies</h3>
+      <p>No cookies are stored on your computer.</p>
+
+      <h3>Service Providers</h3>
+      <p>Program settings data are stored in Google Chrome and cannot be accessed by any third party.</p>
+
+      <h3>Security</h3>
+      <p>The distribution product channel is hosted by the Google Chrome WebStore and the data is stored in Google Chrome.</p>
+
+      <h3>Links to Other Sites</h3>
+      <p>The only link is to the user guide page, the site does not track users, and it doesn't store any cookies.</p>
+
+      <h3>Children's Privacy</h3>
+      <p>This product does not provide any harmful information to children.</p>
+
+      <h3>Changes to This Privacy Policy</h3>
+      <p>Privacy policy changes will require user consent, and all private information will not be uploaded.</p>
+
+      <h3>Contact Us</h3>
+      <p>If you have any questions or suggestions about my Privacy Policy, please feel free to contact me at dshovchko@exadel.com</p>
+
+    </article>
+  </div>
 </body>
 </html>
