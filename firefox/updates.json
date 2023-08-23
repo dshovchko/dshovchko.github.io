@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "hperequesthacker@exadel.com": {
+      "updates": [
+        {
+          "version": "1.0.1",
+          "update_link": "https://dshovchko.github.io/firefox/hpe_request_hacker-1.0.1.xpi"
+        }
+      ]
+    }
+  }
+}
