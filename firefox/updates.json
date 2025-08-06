@@ -29,6 +29,10 @@
         {
           "version": "1.1.1",
           "update_link": "https://dshovchko.github.io/firefox/hpe_request_hacker-1.1.1.xpi"
+        },
+        {
+          "version": "1.1.2",
+          "update_link": "https://dshovchko.github.io/firefox/hpe_request_hacker-1.1.2.xpi"
         }
       ]
     }
